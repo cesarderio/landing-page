@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-weight: 400;
+  background: rgba(3, 35, 91, 0.755);
+  text-align: center;
+}
+
+#header {
+  text-align: right;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(11, 134, 242, 0.673);
+  font-weight: 900;
+}
+
+li {
+  display: inline-block;
+}
+
+.nav-link {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 16px 12px 16px;
+  text-decoration: none;
+}
+
+.OGS {
+  /* background-color: rgba(11, 3, 100, 0); */
+  /* display: inline-flex; */
+  color: black;
+  /* text-align: left; */
+  float: left;
+
+  padding: 12px 16px 12px 16px;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 123, 0.886);
+}
+
+#header-img {
+  padding: 5px 5px 0px 5px;
+  margin: 0px;
+  /* text-align: right; */
+  float: left;
+  /* vertical-align: top; */
+  width: 30px;
+  height: 30px;
+  /* border-style: solid; */
+  /* border-radius: 50%; */
+  /* border-color: rgba(7, 26, 233, 0.249); */
+}
+
+#box1 {
+  background: linear-gradient(rgba(17, 0, 114, 0.8), rgba(230, 178, 6, 0.427)),
+    url(https://images.pexels.com/photos/340991/pexels-photo-340991.jpeg?cs=srgb&dl=pexels-isabella-mendes-340991.jpg&fm=jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15em;
+  padding: 70px 50px 50px 50px;
+  text-align: center;
+}
+
+#box3 {
+  padding: 50px;
+}
+
+#box4 {
+  /* background: white; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  /* padding: 50px; */
+  /* background: rgba(42, 5, 153, 0.413); */
+  /* background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 50px; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  /* align-items: center; */
+  text-align: center;
+}
+
+#footer {
+  background-color: rgb(120, 120, 120);
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  color: black;
+  height: auto;
+  align-items: left;
+  text-align: center;
+  padding: 5px;
+}
+
+#title {
+  font-size: 32px;
+  font-weight: bolder;
+  font-weight: 900;
+  color: black;
+}
+
+#description {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: -20px;
+  color: black;
+}
+
+.card1 {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(240, 240, 240, 0.653)
+    ),
+    url(https://www.irishtimes.com/polopoly_fs/1.4029963.1569503430!/image/image.jpg_gen/derivatives/box_620_330/image.jpg);
+  height: 20em;
+  border-radius: 10px;
+  color: rgb(109, 0, 0);
+  font-weight: 800;
+}
+
+.card2 {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(240, 240, 240, 0.653)
+    ),
+    url(https://www.warehouseskateboards.com/blog/wp-content/uploads/2019/11/what-size-skateboard-do-you-need-buying-guide-tips-1024x682.jpg);
+  height: 20em;
+  border-radius: 10px;
+  color: rgb(0, 39, 167);
+  font-weight: 800;
+}
+
+.card3 {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(240, 240, 240, 0.653)
+    ),
+    url(https://www.voice-online.co.uk/wp-content/uploads/2020/09/AS-1024x705.jpg);
+  height: 20em;
+  border-radius: 10px;
+  color: rgb(196, 141, 0);
+  font-weight: 400;
+}
+
+div .card1:hover {
+  background: linear-gradient(rgba(60, 60, 60, 0.8), rgba(240, 240, 240, 0.653), url(https://tennisracquetcentral.com/wp-content/uploads/2018/10/Wilson-Tennis-racquet.jpg));
+  opacity: 0.5;
+}
+
+div .card2:hover {
+  background: linear-gradient(rgba(60, 60, 60, 0.8), rgba(240, 240, 240, 0.653), url(https://specials-images.forbesimg.com/imageserve/5f75da2d2efc9628274972ea/960x0.jpg?fit=scale));
+  opacity: 0.5;
+}
+
+div .card3:hover {
+  background: linear-gradient(rgba(60, 60, 60, 0.8), rgba(240, 240, 240, 0.653), url(https://c1.wallpaperflare.com/preview/2/871/756/tennis-tennis-ball-tennis-racket-sport.jpg));
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 800px) {
+  input[type="email"] {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 2px 0 2px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+  }
+
+  #box1 input[type="submit"] {
+    width: 15%;
+    background-color: rgb(104, 184, 0);
+    font-weight: 900;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0 20px;
+    box-sizing: border-box;
+    border: 0;
+  }
+
+  #box1 input[type="submit"]:hover {
+    background-color: rgb(101, 201, 0);
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  input[type="email"] {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 2px 0 2px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+  }
+
+  #box1 input[type="submit"] {
+    width: 15%;
+    background-color: rgb(34, 0, 224);
+    font-weight: 900;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0 20px;
+    box-sizing: border-box;
+    border: 0;
+  }
+
+  #box1 input[type="submit"]:hover {
+    background-color: rgb(29, 1, 171);
+  }
+}
+
+.box-div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5em;
+  padding: 5px;
+  text-align: center;
+}
+
+.box2-text {
+  margin: 0px;
+  text-align: center;
+  width: 70%;
+  float: right;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2-img {
+  color: rgb(104, 184, 0);
+  margin: 0px;
+  padding-top: 10px;
+  text-align: center;
+  width: 30%;
+  float: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2-img img {
+  margin: 0px;
+  text-align: center;
+  width: 30%;
+  float: left;
+}
+
+.icon {
+  float: left;
+  padding: 2px 2px 10px 20px;
+}
